@@ -1,7 +1,7 @@
 services:
   details:
     build: .
-    image: ghcr.io/62130500119/bookinfo-details:master
+    image: ghcr.io/varotsk137/bookinfo-details:dev
     ports:
       - "8080:8080"
     environment:
