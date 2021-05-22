@@ -13,3 +13,5 @@ ingress:
   host: bookinfo.uat.opsta.net
   path: "/student80/details(/|$)(.*)"
   serviceType: ClusterIP
+extraEnv:
+  COMMIT_SHA: CHANGEME
